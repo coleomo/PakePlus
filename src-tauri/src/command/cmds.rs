@@ -845,12 +845,12 @@ pub async fn macos_build(
 
 #[tauri::command]
 pub async fn linux_build(
-    base_dir: &str,
-    exe_name: &str,
-    config: String,
-    base64_png: String,
-    custom_js: String,
-    html_path: String,
+    _: &str,
+    _: &str,
+    _: String,
+    _: String,
+    _: String,
+    _: String,
 ) -> Result<(), String> {
     Ok(())
 }
